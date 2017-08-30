@@ -22,6 +22,7 @@ public class Client {
             printWriter.println("Hello 我是发送给服务器的");
             String s = null;
             while (true){
+
                 s = bufferedReader.readLine();
                 if(s!=null){
                     break;
